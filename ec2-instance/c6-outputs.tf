@@ -13,18 +13,18 @@ output "instance_publicdns" {
 }
 
 # Output the AMI ID for reference
-#output "ami_id" {
-#  value = data.aws_ami.ubuntu.id
-#}
+output "ami_id" {
+  value = data.aws_ami.ubuntu.id
+}
 
-#output "ami_name" {
-#  value = data.aws_ami.ubuntu.name
-#}
+output "ami_name" {
+  value = data.aws_ami.ubuntu.name
+}
 
 # Output the AMI ID for reference
-output "ami_id" {
-  value = data.aws_ami.amazon_linux.id
-}
-output "ami_name" {
-  value = data.aws_ami.amazon_linux.name
-}
+#output "ami_id" {
+#  value = data.aws_ami.amazon_linux.id
+#}
+#output "ami_name" {
+#  value = data.aws_ami.amazon_linux.name
+#}
