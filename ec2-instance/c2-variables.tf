@@ -11,7 +11,7 @@ variable "aws_region" {
 variable "aws_instance_type" {
   type        = string
   description = "EC2 instance type"
-  default     = "t3.medium"
+  default     = "t3.large"
 }
 
 # AWS EC2 Key Pair
