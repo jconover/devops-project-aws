@@ -9,6 +9,12 @@
 .DS_Store
 \#*\#
 
+# terraform
+terraform.tfstate.backup
+terraform.tfstate
+.terraform
+.terraform.lock.hcl
+
 docker-compose.override.yml
 
 # Eclipse
