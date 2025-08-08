@@ -8,6 +8,7 @@
 .swp
 .DS_Store
 \#*\#
+**/private-key/*
 
 # terraform
 terraform.tfstate.backup
